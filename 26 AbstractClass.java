@@ -28,7 +28,9 @@ public class AbstractClass {
 
         // We always use the concrete class as an object to define the instance in the
         // main method
-
+        // We cannot instantiate an abstract class - always use a constructor class 
+        // as the object while instantiating a class 
+        
         Octavia sk = new Skoda();
         sk.drive(); // method @overriding in Skoda class
         sk.tyres(); // method @overriding in Skoda class
